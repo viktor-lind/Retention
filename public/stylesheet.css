@@ -1,0 +1,516 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 900;
+    top: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    text-decoration: none;
+}
+
+.m-navigation {
+    display: none;
+}
+
+li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1vw;
+}
+
+.contact-btn {
+    background: #f58220;
+    color: white;
+    width: 150px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.contact-btn:hover {
+    background: rgb(130, 130, 130);
+    color: #f58220;
+    ;
+}
+
+.logo-img {
+    z-index: 1000;
+    top: 1.9vw;
+    height: 2vw;
+    width: 15vw;
+    margin-left: 2vw;
+    position: fixed;
+}
+
+.bg-img {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    top: 6.2vw;
+    background-image: url(IMG/shanghai4.png);
+    background-size: auto 100%;
+    background-position: right;
+    width: 100%;
+    height: 46vw;
+}
+
+.about {
+    margin-top: 53vw;
+    height: auto;
+    background: rgb(239, 239, 239);
+}
+
+.logo {
+    top: 0;
+}
+
+.col-centered {
+    text-align: center;
+}
+
+.header-txt {
+    color: black;
+    font-weight: 600;
+}
+
+body {
+    background: rgb(239, 239, 239);
+    font-family: 'Raleway', sans-serif;
+}
+
+.mats-img {
+    width: 400px;
+    margin-top: 4vw;
+}
+
+.col-section {
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-txt {
+    z-index: -1;
+    position: fixed;
+    bottom: 100px;
+    color: white;
+}
+
+.sections-2nd {
+    height: auto;
+    background: white;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+    height: auto;
+    border-bottom: solid rgb(170, 170, 170);
+    border-width: 0.1px;
+}
+
+.sections-3 {
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+
+.col-section3 {
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.globe-img {
+    width: 70em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process-section {
+    height: auto;
+    background-image: url(IMG/shanghai2.jpg);
+    background-size: 100% auto;
+    background-position: top;
+}
+
+.process-img {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.line {
+    height: 2px;
+    width: 140px;
+    background-color: #f58220;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.col-left {
+    margin-top: 0px;
+    text-align: left;
+    background: rgb(239, 239, 239);
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 72px;
+}
+
+.section-news {
+    height: auto;
+}
+
+.section-txt {
+    text-align: left;
+    width: 80%;
+    margin-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.contact-img {
+    float: left;
+    margin-right: 25px;
+    border-radius: 100px;
+    width: 7vw;
+    height: 7vw;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.process-full-img {
+    width: 40em;
+    height: auto;
+}
+
+.line2 {
+    height: 2px;
+    width: 283px;
+    background-color: #f58220;
+    margin-left: 0%;
+    margin-top: -50px;
+}
+
+.col-sub {
+    background: rgb(255, 255, 255);
+}
+
+.section-contact {
+    background: white;
+}
+
+.citation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+}
+
+.row-sections {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-align {
+    margin-top: 40px;
+}
+
+.m-img-logo {
+    visibility: hidden;
+}
+
+.re-txt {
+    position: absolute;
+    top: 15vw;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.txt {
+    color: white;
+    bottom: 5vw;
+}
+
+.re-txt-m {
+    display: none;
+}
+
+.process-txt {
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-txt {
+    font-size: 0.8vw;
+}
+
+.section-txt-client {
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.re-link {
+    font-size: 1vw;
+    color: white;
+    font-weight: 400;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #f58220;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.re-link:hover {
+    color: #f58220;
+    background-color: white;
+}
+
+.re-link-cont {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+}
+
+.nav-2nd-btn {
+    top: 30vw;
+    /*background-color: #f58220;*/
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#test {
+    display: inline;
+    color: white;
+}
+
+.re-ma {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 750px) {
+    .nav-2nd-btn {
+        display: none;
+    }
+    .navigation {
+        display: none;
+        border: none;
+        height: 100%;
+    }
+    .m-navigation {
+        display: inline-block;
+        position: fixed;
+        right: 5vw;
+        top: 5vw;
+        z-index: 9999;
+    }
+    ul {
+        padding-top: 40vw;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    li {
+        display: block;
+    }
+    li a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 5vw;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #f58220;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    /* Rotate first bar */
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    /* Fade out the second bar */
+    .change .bar2 {
+        opacity: 0;
+    }
+    /* Rotate last bar */
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .bg-img {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        z-index: -1;
+        top: 0;
+        background-image: url(IMG/shanghai4.png);
+        background-size: auto 100%;
+        background-position: 20% 30%;
+        height: 55em;
+    }
+    .section-txt {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .process-txt {
+        width: auto;
+        margin-left: none;
+        margin-right: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .process-full-img {
+    width: 100%;
+    height: auto;
+}
+    .modal{
+        top: 16vw;
+        left: -9vw;
+    }
+    .about {
+        margin-top: 0;
+        height: auto;
+        background: rgb(239, 239, 239);
+        width: 100%;
+    }
+    .mats-img {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 97%;
+    }
+    .globe-img {
+        width: 90%;
+    }
+    .citation {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .process-section {
+        background-image: url(IMG/shanghai2.jpg);
+        background-size: auto 100%;
+        background-position: center;
+    }
+    .process-img {
+        width: 100%;
+    }
+    .re-txt-m {
+        display: inline;
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80vw;
+    }
+    .re-txt {
+        display: none;
+    }
+    .logo-img {
+        visibility: hidden;
+    }
+    .m-img-logo {
+        position: relative;
+        visibility: visible;
+        z-index: 1000;
+        width: 200px;
+        margin: 0 auto;
+        top: 105vw;
+    }
+    .contact-info{
+        height: 30vw;
+    }
+    .contact-txt{
+        font-size: 0.7em;
+    }
+    .contact-img {
+        display: block;
+        float: left;
+        border-radius: 100px;
+        width: 30vw;
+        height: auto;
+        margin-bottom: 5vw;
+    }
+    
+    #katie{
+        margin-top: 50vw;
+    }
+    
+    #mats{
+        margin-top: 20vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact-txt{
+        font-size: 0.6em;
+    }
+}
+.social-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+

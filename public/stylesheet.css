@@ -196,11 +196,12 @@ h2 {
 }
 
 .contact-img {
-    float: left;
+    
     margin-right: 25px;
     border-radius: 100px;
     width: 7vw;
     height: 7vw;
+    clear: left;
 }
 
 h5 {
@@ -208,9 +209,7 @@ h5 {
     font-weight: 600;
 }
 
-.contact-info {
-    margin-bottom: 30px;
-}
+
 
 .process-full-img {
     width: 40em;
@@ -279,7 +278,7 @@ h5 {
 }
 
 .contact-txt {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 
 .section-txt-client {
@@ -338,6 +337,12 @@ h5 {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+.contact-info{
+        margin-top: 2vw;
+    }
+.contact-img-cont{
+    margin-top: 2vw;
 }
 
 @media (max-width: 750px) {
@@ -475,35 +480,28 @@ h5 {
         margin: 0 auto;
         top: 105vw;
     }
+    .contact-img-cont{
+        margin-top: 10vw;
+    }
     .contact-info{
-        height: 30vw;
+        margin-top: 2vw;
     }
     .contact-txt{
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
     .contact-img {
-        display: block;
-        float: left;
+        display: inline-block;
         border-radius: 100px;
         width: 30vw;
         height: auto;
         margin-bottom: 5vw;
     }
     
-    #katie{
-        margin-top: 50vw;
-    }
     
-    #mats{
-        margin-top: 20vw;
-    }
+    
+    
 }
 
-@media (max-width: 750px) {
-    .contact-txt{
-        font-size: 0.6em;
-    }
-}
 .social-img {
     margin-left: auto;
     margin-right: auto;

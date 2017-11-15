@@ -100,12 +100,12 @@ body {
 
 .mats-img {
     width: 400px;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 
 .col-section {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     color: black;
     font-family: 'Raleway', sans-serif;
 }
@@ -169,7 +169,7 @@ p {
     background-color: #f58220;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 1vw;
 }
 
 .col-left {
@@ -190,7 +190,7 @@ h2 {
 .section-txt {
     text-align: left;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 1vw;
     padding-left: auto;
     padding-right: auto;
 }
@@ -272,7 +272,7 @@ h5 {
     text-align: center;
     color: white;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 2vw;
     margin-left: auto;
     margin-right: auto;
 }
